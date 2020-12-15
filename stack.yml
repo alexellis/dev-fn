@@ -7,4 +7,5 @@ functions:
     lang: node12
     handler: ./hooks
     image: hooks:latest
-
+    secrets:
+      - secret
