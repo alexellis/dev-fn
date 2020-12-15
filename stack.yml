@@ -8,4 +8,4 @@ functions:
     handler: ./hooks
     image: hooks:latest
     secrets:
-      - secret
+      - secrets
