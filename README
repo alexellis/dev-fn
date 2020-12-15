@@ -1,3 +1,10 @@
 # dev-fn
 
 development functions
+
+
+```bash
+faas-cli cloud seal \
+  --name alexellis-secrets \
+  --literal secret=raspberrypi
+```
