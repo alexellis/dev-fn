@@ -1,26 +1,25 @@
 'use strict'
-const { createCanvas } = require('canvas')
+let Jimp = require('jimp')
 
-module.exports = async (event, ctx) => {
-  const result = {
-    'status': 'Received input: ' + JSON.stringify(event.body)
-  }
+module.exports = handler; 
 
-  const context = canvas.getContext('2d')
+async function handler(event, ctx) {
+  let image = await new Jimp(800, 418, 'white')
+  
+  let message = 'Hello OpenFaaS!'
+  let x = 10
+  let y = 10
 
-  const text = 'Hello, OpenFaaS!'
-  context.textBaseline = 'top'
-  context.fillStyle = '#3574d4'
-  const textWidth = context.measureText(text).width
-  context.fillRect(600 - textWidth / 2 - 10, 170 - 5, textWidth + 20, 120)
-  context.fillStyle = '#fff'
-  context.fillText(text, 600, 170)
+  await Jimp.loadFont(Jimp.FONT_SANS_64_BLACK)
+    .then(font => {
+      image.print(font, x, y, message)
+      return image
+    })
 
-  const buffer = canvas.toBuffer('image/png')
+  let buffer = await image.getBufferAsync(Jimp.MIME_PNG);
 
   return ctx
     .status(200)
     .headers({"Content-Type": "image/png"})
     .succeed(buffer)
 }
-

@@ -10,6 +10,6 @@
   "author": "OpenFaaS Ltd",
   "license": "MIT",
   "dependencies": {
-    "canvas": "^2.6.1"
+    "jimp": "^0.16.1"
   }
 }
