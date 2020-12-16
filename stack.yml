@@ -3,13 +3,18 @@ provider:
   name: openfaas
   gateway: http://127.0.0.1:8080
 functions:
-  hooks:
-    lang: node12
-    handler: ./hooks
-    image: hooks:latest
-  save-tweet:
+  # hooks:
+  #   lang: node12
+  #   handler: ./hooks
+  #   image: hooks:latest
+  fetch-tweet:
     lang: node12
     handler: ./save-tweet
     image: save-tweet:latest
     secrets:
     - secrets
+  image-test:
+    lang: node12
+    handler: ./image-test
+    image: image-test:latest
+

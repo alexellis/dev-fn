@@ -1,0 +1,124 @@
+{
+    "created_at": "Tue Dec 15 22:50:42 +0000 2020",
+    "id": 1338979828746358800,
+    "id_str": "1338979828746358790",
+    "text": "How to monitor multi-cloud Kubernetes with Prometheus and Grafana - a new guest post on @inletsdev by @nosceon… https://t.co/sLOZhHCiK4",
+    "truncated": true,
+    "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+            {
+                "screen_name": "inletsdev",
+                "name": "inlets",
+                "id": 1184539395862466600,
+                "id_str": "1184539395862466560",
+                "indices": [
+                    88,
+                    98
+                ]
+            },
+            {
+                "screen_name": "nosceon",
+                "name": "Johan Siebens",
+                "id": 153334406,
+                "id_str": "153334406",
+                "indices": [
+                    102,
+                    110
+                ]
+            }
+        ],
+        "urls": [
+            {
+                "url": "https://t.co/sLOZhHCiK4",
+                "expanded_url": "https://twitter.com/i/web/status/1338979828746358790",
+                "display_url": "twitter.com/i/web/status/1…",
+                "indices": [
+                    112,
+                    135
+                ]
+            }
+        ]
+    },
+    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 706910608663453700,
+        "id_str": "706910608663453698",
+        "name": "Alex Ellis",
+        "screen_name": "alexellisuk",
+        "location": "England, United Kingdom",
+        "description": "Founder @inletsdev + @openfaas. CNCF Ambassador.",
+        "url": "https://t.co/NZlw3aDcz7",
+        "entities": {
+            "url": {
+                "urls": [
+                    {
+                        "url": "https://t.co/NZlw3aDcz7",
+                        "expanded_url": "https://github.com/alexellis/",
+                        "display_url": "github.com/alexellis/",
+                        "indices": [
+                            0,
+                            23
+                        ]
+                    }
+                ]
+            },
+            "description": {
+                "urls": []
+            }
+        },
+        "protected": false,
+        "followers_count": 17945,
+        "friends_count": 2701,
+        "listed_count": 431,
+        "created_at": "Mon Mar 07 18:33:17 +0000 2016",
+        "favourites_count": 36023,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 28097,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1134783444079259648/lP1sBvo1_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1134783444079259648/lP1sBvo1_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/706910608663453698/1604311660",
+        "profile_link_color": "981CEB",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 8,
+    "favorite_count": 42,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en",
+    "full_text": "How to monitor multi-cloud Kubernetes with Prometheus and Grafana - a new guest post on @inletsdev by @nosceon #multicloud #kubernetes #prometheus #networking https://t.co/XqsZJIBfA7 "
+}

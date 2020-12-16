@@ -27,8 +27,17 @@ module.exports = async (event, context) => {
   
   let res = await tweetFetch.get(tweetURL)  
 
+  let text = res.full_text
+  let avatar = res.user.profile_image_url_https
+
   return context
     .status(200)
-    .succeed(res)
+    .succeed({
+      original: res,
+      custom: {
+        text: text,
+        avatar: avatar
+      }
+    })
 }
 
