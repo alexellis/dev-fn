@@ -8,3 +8,9 @@ faas-cli cloud seal \
   --name alexellis-secrets \
   --literal secret=raspberrypi
 ```
+
+Append to the save-tweet function:
+
+```
+?q=https://twitter.com/alexellisuk/status/1338979828746358790?s=20
+```
