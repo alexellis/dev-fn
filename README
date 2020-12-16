@@ -14,3 +14,9 @@ Append to the save-tweet function:
 ```
 ?q=https://twitter.com/alexellisuk/status/1338979828746358790?s=20
 ```
+
+Example:
+
+```
+curl -is https://alexellis.heyal.uk/save-tweet?q=https://twitter.com/alexellisuk/status/1338979828746358790?s=20
+```

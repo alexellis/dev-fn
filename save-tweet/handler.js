@@ -1,7 +1,7 @@
 'use strict'
 const TweetFetch = require("tweet-fetch")
-const fsPromises = fs.promises
 const fs = require('fs')
+const fsPromises = fs.promises
 
 module.exports = async (event, context) => {
   if(!event.query['q']) {
